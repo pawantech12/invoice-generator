@@ -71,8 +71,12 @@ Before starting, ensure that you have **Node.js** and **npm** (or **pnpm**) inst
    MONGODB_URI=your-mongodb-uri
    PORT=3000
    ```
+5. Create a `.env` file in the root of the `client` directory and add your backedn Url(default is http://localhost:3000):
+   ```
+   VITE_APP_BACKEND_URL=your_backend_url
+   ```
 
-5. Start the development servers:
+6. Start the development servers:
 
    - For the backend (server):
      ```bash
